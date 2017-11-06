@@ -1,0 +1,32 @@
+body {
+	
+	font-family: helvetica;
+	color: white;
+	background-color: blue;
+	background-image: url(oi.jpg);
+	background-blend-mode: luminosity;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+h1 {
+	text-align: center;
+
+}
+
+p {
+	background-color: black;
+	width: 300px;
+	padding: 50px;
+	text-align: center;
+	margin-left: 420px;
+
+}
+
+ul {
+	background-color: black;
+	padding: 40px;
+	border: white dashed;
+	line-height: 150%;
+	
+}
