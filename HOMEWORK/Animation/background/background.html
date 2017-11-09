@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Background Trick Homework</title>
+	<link rel="stylesheet" type="text/css" href="background.css">
+</head>
+<body>
+
+<h1>Background Blend Mode</h1>
+
+<p>The background-blend-mode property defines how an element's background-image should blend with its background-color. Blend mode modifies the background image with the image beneath it, without affecting the text color. </p>
+
+<p>The blend mode value can be set as: normal, multiply, screen, overlay, darken, lighten, color-dodge, color-burn, hard-light, soft-light, difference, exclusion, hue, saturation, color, or luminosity. </p>
+
+
+<ul>
+  <li>Normal: as shown above, the background-color will not bleed through the background-image.</li>
+  <li>Multiply: the background-image and background-color are multiplied and typically this leads to a darker image than before.</li>
+  <li>Screen: both image and color is inverted, multiplied and then inverted again. </li>
+  <li>Overlay: the background-color is mixed with the background-image to reflect the lightness or darkness of the backdrop. </li>
+  <li>Darken: if the background-image is darker than the background-color then the image is replaced, otherwise it is left as it was. </li>
+  <li>Lighten: if the background-image is lighter than the background-color then the image is replaced, otherwise it is left as it was. </li>
+  <li>Color-Dodge: the background-color is divided by the inverse of the background-image. This is very similar to the screen blend mode.</li>
+  <li>Color-Burn: the background-color is inverted, divided by the background-image and inverted again. This is similar to multiply.</li>
+  <li>Hard-Light: if the background-image is lighter than the background-color then the result is muliply or if it is lighter then the result is screen.</li>
+  <li>Soft-Light: the final result is similar to hard-light but softer in that it looks like a diffused spotlight has been placed on the image.</li>
+  <li>Difference: the result by subtracting the darker color of the background-image and the background-color from the lightest one. Often the image will have a very high contrast.</li>
+  <li>Exclusion: the result is very similar to difference yet with a little lower contrast.</li>
+  <li>Hue: the result is the hue of the background-image combined with the luminosity and saturation of the background-color.</li>
+  <li>Saturation: keeps the saturation of the background-image whilst mixing the hue and luminosity of the background-color.</li>
+  <li>Color: keeps hue and saturation of background-image and the luminosity of the background-color. In this example because the image is gray and the effect preserves gray levels all we get is a big gray blob.</li>
+  <li>Luminosity: luminosity of the top color is preserved whilst using the saturation and hue of the background-color. </li>
+</ul>
+
+<h1>ANIMATION</h1>
+
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+</body>
+</html>
