@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head >
+		<!-- Set up utf-8 encoding to support (almost) all the characters, punctuations, and symbols in the world. -->
+		<meta charset="utf-8">
+		<!-- set a viewport -->
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<!-- add all bootstrap libraries -->
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  		<script type="text/javascript" src="script.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="grid.css">
+	</head>
+
+<body>
+
+
+	<img src="media/dog.png" alt="dog" width="100">
+	
+
+		<div class=container-fluid>
+			<h1>Dog Years Calculator</h1>
+		</div>
+
+<p>How old are you in dog years?</p>		
+<form>
+Your Age: <input type="text" id="firstNumber" /><br>
+<input type="button" onClick="multiplyBy()" Value="CALCULATE" />
+</form>
+
+<p>
+<span id = "result"></span> <br>
+</p>
+
+<p>How old is your dog in dog years?</p>
+<form>
+Dog's Age: <input type="text" id="firstNumber" /><br>
+<input type="button" onClick="multiplyBy()" Value="CALCULATE" />
+</form>
+
+
+<p>
+<span id = "result"> </span>
+</p>
+
+</body>
+</html>
