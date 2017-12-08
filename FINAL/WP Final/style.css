@@ -1,0 +1,53 @@
+@font-face {
+	font-family: Fette; 
+	src: url('fonts/BlackCastleMF.ttf'); 
+
+} 
+body {
+	background-color: #458FBE;
+}      
+h1{
+ 	font-family: Fette;
+ 	width:50px;
+ 	letter-spacing: 5px;
+ 	word-spacing:  10px;
+ 	font-size: 70px;
+ 	margin-left: 60%;
+ 	margin-top: -600px;
+ 	color: #F2B565;
+ 	outline-color: orange;
+ 	font-weight: normal;
+ 	font-style: normal;
+ 	
+ 	box-shadow: 2px orange;
+ }
+
+p {
+	margin-left: 60%;
+	font-family: Georgia;
+	color: white;
+	margin-right: 10%;
+	font-style: bold;
+	font-size: 16px;
+}
+
+audio {
+	margin-bottom: -50px;
+}
+
+video {
+	margin-left: -250px;
+	height: 100%;
+	border: solid 30px white;
+}
+
+.slider {
+
+	margin-left: 1100px;
+	margin-top: -40px;
+}
+
+.crayon {
+	margin-left: 1000px;
+	margin-top: -40px;
+}
